@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+:root{
+    --back: #FFFF49;
+    --back2:#B8B800;
+    --back3: #B3541E;
+}
+
+main{
+   
+    padding-bottom: 20px;
+    
+}
+.section-1{
+   
+    background-image: url(../img-produtos/banner.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+      height: 200px;
+      border-bottom: 2px solid #B3541E;
+  }
+  .section-1 div h1{
+      color: white;
+      text-align: left;
+      font-size: 60px;
+      margin-left: 30px;
+      
+     
+  }
+  .container{
+      width: 100vw;
+     position: absolute;
+     top: 66%;
+  }
+ form>h1{
+    color: black;
+    text-align: center;
+    padding: 14px 0;
+    margin-top: 0;
+    background-color:#B8B800;
+    width: 640px;
+    font-size: 30px;
+ }
+ textarea{
+    text-indent: 10px;
+    width: 600px;
+ }
+ input{
+    text-indent: 10px;
+    width: 600px;
+    padding: 10px;
+    padding: 15px 0;
+    border-radius: 4px;
+ }
+
+
+ 
+ label{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  display:flex;
+align-self: baseline;
+ }
+
+ .art-1 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.art-1 h2{
+    margin-top: 20px;
+    font-size:25px;
+}
+.art-1 label {
+ 
+    margin-bottom: 10px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.art-1 input[type="radio"] {
+    margin-right: 5px;
+    transform: translateY(1px);
+    width: 20px; /* Defina um tamanho padrão para todos os radio buttons */
+    height: 20px; /* Defina um tamanho padrão para todos os radio buttons */
+}
+
+ #app{
+    margin-top: 40px;
+ }
+ 
+ 
+ .button-container img{
+    width: 50px;
+ }
+ .button-container button{
+    margin-top: 40px;
+    background-color: #B8B800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+ }
+
+ .button-container p{
+   
+    font-size: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+ }
+  .form{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 0;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+footer{
+    margin-top: 30px;
+}
