@@ -131,3 +131,51 @@ article{
     width: 90px;
     margin-bottom: 6px;
 }
+
+@media(min-width:1560px) {
+    .section-2, .section-3{
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+    p{
+        line-height: 30px;
+    }
+    .section-1{
+        background-repeat: no-repeat;
+        background-size: cover;
+       background-position: top center;
+        
+    }
+    article {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section-3 {
+
+        width: 900px;
+        margin: auto;
+        position: relative;
+        top: 18%;
+    }
+
+    .art-1 {
+
+        height: 400px;
+        width: 100%;
+        position: absolute;
+
+    }
+
+    .section-3>img{
+        width: 250px;
+        
+    }
+    .section-3{
+        width: 900px;
+        margin: auto;
+        position: relative;
+        top: 18%;
+        margin-left: 400px;
+    }
+}

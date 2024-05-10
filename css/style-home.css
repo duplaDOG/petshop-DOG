@@ -101,3 +101,10 @@ footer{
   
    background-color:   #FFFF49;
 }
+
+@media(min-width:1560px){
+    li>a{
+        font-size: 22px;
+    }
+    
+}
